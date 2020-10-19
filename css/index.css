@@ -551,9 +551,9 @@ footer.is-mobile {
 }
 #site-title,
 #site-sub-title {
-  color: #eee;
+  color: #010000;
   text-align: center;
-  text-shadow: 0.1rem 0.1rem 0.2rem #fd0e4b;
+  text-shadow: 0.1rem 0.1rem 0rem #00f0e2;
   line-height: 1.5;
 }
 #site-title {
@@ -561,6 +561,7 @@ footer.is-mobile {
   font-size: 1.3rem;
 }
 #site-sub-title {
+  font-weight: lighter;
   font-size: 0.8rem;
 }
 #site-social-icons {
@@ -570,8 +571,8 @@ footer.is-mobile {
 }
 #site-social-icons .social-icon {
   margin: 0 0.5rem;
-  color: #eee;
-  text-shadow: 0.1rem 0.1rem 0.2rem rgba(0,0,0,0.4);
+  color: #010000;
+  text-shadow: 0.1rem 0.1rem 0rem #00f0e2;
   font-size: 1.4rem;
   cursor: pointer;
 }
@@ -1671,11 +1672,12 @@ a.fancybox:focus {
 }
 #sidebar .author-info__avatar {
   margin: 0 auto;
-  width: 5rem;
-  height: 5rem;
+  width: 10rem;
+  height: 10rem;
 }
 #sidebar .author-info__name {
-  font-size: 0.8rem;
+  font-weight: bold;
+  font-size: 1rem;
 }
 #sidebar .author-info__description {
   color: #99a9bf;
